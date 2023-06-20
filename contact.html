@@ -98,7 +98,10 @@
                 <script>
                     'use strict';
 
-                    const map = L.map('map').setView([52.3043943532982, 104.26076019346068], 12);
+                    const map = L.map('map').setView([ 52.27868976566199, 104.32196852813178], 12);
+                    const marker = L.marker([ 52.27868976566199, 104.32196852813178]).addTo(map);
+
+
 
                     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                         maxZoom: 19,
