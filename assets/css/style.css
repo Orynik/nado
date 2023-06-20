@@ -6,8 +6,8 @@
 	  Support:
 	  Description:
 	  Version:
-	  
-------------------------------------------------- 
+
+-------------------------------------------------
 */
 /* CSS Index
 -------------------------------------------------
@@ -8094,6 +8094,14 @@ del {
 /* line 1067, C:/Users/HP/Desktop/11_November/317.SEO/SEO_Template/assets/scss/_elements.scss */
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+.leaflet-pane {
+  z-index: 1;
+}
+
+.leaflet-top, .leaflet-bottom{
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
