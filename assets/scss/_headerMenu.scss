@@ -52,7 +52,7 @@
                     margin: 0 14px;
                 }
                 @media #{$lg}{
-                    margin: 0 8px;  
+                    margin: 0 8px;
                 }
                 a{
                     color:$heading-color;
@@ -93,7 +93,7 @@
             }
             ul.submenu{
                 position: absolute;
-                width: 170px;
+                width: 270px;
                 // background: #42708A;
                 @extend %btn_gradient;
                 left: 0;
@@ -123,7 +123,7 @@
                             // @include transition(.4s);
                         }
                     }
-                } 
+                }
             }
         }
 
@@ -183,7 +183,7 @@
             }
             @media #{$xs}{
                 padding: 15px 0px;
-            } 
+            }
         }
     }
 }
